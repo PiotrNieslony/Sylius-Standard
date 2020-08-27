@@ -20,7 +20,8 @@
         "php": "^7.3",
         "sylius/sylius": "~1.7.0",
         "symfony/dotenv": "^4.4",
-        "symfony/flex": "^1.2"
+        "symfony/flex": "^1.2",
+        "symfony/web-server-bundle": "^4.4"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",

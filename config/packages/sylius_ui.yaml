@@ -1,0 +1,15 @@
+sylius_ui:
+    events:
+        sylius.admin.product.tab_details:
+            blocks:
+                product_color_admin: 
+                    template: 'product/product-color.twig.html'
+                
+        sylius.shop.product.show.right_sidebar:
+            blocks:
+                product_color_shop:
+                    template: 'product/product-color-shop.twig.html'
+                    priority: 18
+                
+        
+        
